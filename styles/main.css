@@ -82,13 +82,6 @@ nav {
     padding: 0 20px;
 }
 
-.logo h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--light-text);
-    margin: 0;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -114,6 +107,11 @@ nav {
 
 .social-icons a:hover {
     color: var(--accent-color);
+}
+
+.logo img {
+    max-height: 8.5em; 
+    width: auto;
 }
 
 /* Hero Section */

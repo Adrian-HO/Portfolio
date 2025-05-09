@@ -101,8 +101,9 @@ nav {
 }
 
 .social-icons a {
+    font-size: 1.5em;
     color: var(--light-text);
-    margin-left: 15px;
+    margin-left: 1.3em;
 }
 
 .social-icons a:hover {

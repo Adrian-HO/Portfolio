@@ -163,9 +163,18 @@ nav {
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 30px;
     margin-top: 40px;
+}
+
+.experience-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .experience-card {
@@ -183,9 +192,9 @@ nav {
 }
 
 .card-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+     display: flex;
+  flex-direction: column;  /* Changed from row to column */
+  align-items: center;     /* Center align the items */
 }
 
 .icon {
@@ -205,9 +214,10 @@ nav {
 }
 
 .card-header h3 {
-    margin: 0;
-    color: var(--light-text);
-    font-size: 1.1rem;
+    margin: 0.5rem 0;        
+  color: var(--light-text);
+  font-size: 1.1rem;
+  text-align: center;  
 }
 
 .card-date {

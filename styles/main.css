@@ -529,3 +529,9 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.awards img {
+  max-width: 30%; 
+  display: block; 
+  margin: 0 auto;
+}
